@@ -65,7 +65,7 @@
 	--rawblock-edit-panel-bd: #e5e5e5;
 
 	--select-text-bg-color: rgba(32, 43, 51, 0.63);
-  --select-text-font-color: white;
+  	--select-text-font-color: white;
 }
 
 pre {
@@ -100,7 +100,7 @@ html, body {
 }*/
 
 #write {
-	max-width: 40em;
+	max-width: 690px;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -155,7 +155,7 @@ h6 {
 h1 {
 	font-size: 1.875em;
 	/*30 / 16*/
-	line-height: 1.6em;
+	line-height: 5em;
 	/* 48 / 30*/
 	margin-top: 2em;
 }
@@ -185,7 +185,7 @@ h6 {
 	/*16*/
 }
 h1 {
-	border-bottom: 1px solid;
+	text-align: center;
 	margin-bottom: 1.875em;
 	padding-bottom: 0.8125em;
 }
@@ -255,12 +255,12 @@ td {
 code,
 .md-fences {
 	border: solid 1px #9B5146;
+	font-family: "Computer Modern Mono", "Consolas", 'Courier New', Courier, monospace;
 }
 
 code {
 	padding-left: 2px;
 	padding-right: 2px;
-	font-family: "Computer Modern Mono", "Consolas", 'Courier New', Courier, monospace;
 }
 
 .md-fences {
@@ -384,6 +384,12 @@ hr {
 	margin-top: 1em;
 }
 
+img {
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	margin: 0px;
+	padding: 0px;
+}
+
 .md-image>.md-meta {
 	color: #9B5146;
 }
@@ -407,7 +413,7 @@ hr {
 #write>h5.md-focus:before{
 	left: -1.5rem;
 	top: 0.3125rem;
-	color:#999;
+	color: #999;
 	border-color:#999;
 }
 #write>h6.md-focus:before{
